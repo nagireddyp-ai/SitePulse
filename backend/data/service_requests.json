@@ -1,0 +1,18 @@
+[
+  {
+    "id": "SR-2001",
+    "title": "Provision new Ubuntu VM",
+    "description": "Need a 4-core VM for staging environment.",
+    "status": "Open",
+    "priority": "P3",
+    "sla_timer": 8
+  },
+  {
+    "id": "SR-2002",
+    "title": "Install monitoring agent",
+    "description": "Install and configure node exporter on db node.",
+    "status": "In Progress",
+    "priority": "P2",
+    "sla_timer": 6
+  }
+]
