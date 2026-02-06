@@ -1,0 +1,33 @@
+[
+  {
+    "id": "INC-1001",
+    "title": "Linux server disk usage spike",
+    "description": "Root partition at 95% after log rotation failed.",
+    "status": "Open",
+    "priority": "P2",
+    "sla_timer": 4,
+    "category": "Linux",
+    "sla_breach": false
+  },
+  {
+    "id": "INC-1002",
+    "title": "SSH authentication failing",
+    "description": "Users cannot SSH after PAM update. Error: authentication failure.",
+    "status": "In Progress",
+    "priority": "P1",
+    "sla_timer": 2,
+    "category": "Linux",
+    "sla_breach": true
+  },
+  {
+    "id": "INC-1003",
+    "title": "High CPU on nginx host",
+    "description": "Nginx process consuming 300% CPU due to runaway worker.",
+    "status": "Resolved",
+    "priority": "P3",
+    "sla_timer": 1,
+    "category": "Linux",
+    "sla_breach": false,
+    "resolution": "Restarted nginx and deployed rate limiting."
+  }
+]

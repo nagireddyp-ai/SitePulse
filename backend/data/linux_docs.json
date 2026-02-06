@@ -1,0 +1,12 @@
+[
+  {
+    "id": "doc-1",
+    "title": "Log rotation troubleshooting",
+    "content": "Symptoms: /var/log grows rapidly. Check logrotate status and permissions. Verify cron/systemd timer."
+  },
+  {
+    "id": "doc-2",
+    "title": "SSH auth failures",
+    "content": "Inspect /var/log/auth.log. Validate PAM configs and ensure sshd_config is intact."
+  }
+]
