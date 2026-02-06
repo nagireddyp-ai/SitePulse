@@ -102,6 +102,9 @@ README.md
    uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
    ```
 
+   **Note:** If you see a NumPy 2.0 compatibility error from ChromaDB, ensure
+   NumPy 1.x is installed (`pip install numpy==1.26.4`) and restart the backend.
+
 2. **Frontend**
    ```bash
    cd frontend
